@@ -1,1 +1,7 @@
-export const NavBar = () => {};
+export const NavBar = () => {
+  return (
+    <div>
+      <p>navmenu</p>
+    </div>
+  );
+};
