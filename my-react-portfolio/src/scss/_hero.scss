@@ -1,17 +1,36 @@
-.hero-section {
-  border: red 1px solid;
-  margin: 0 0 0 15vw;
+@import "./varables";
 
+.hero-section {
+  margin: 0 0 0 15vw;
   height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.hero-text {
+  margin: 15vh 0 0 8vw;
+}
+
+article h4 {
+  color: $sub-text-color;
+  font-size: 1.2rem;
+  letter-spacing: 3px;
+}
+
+article h1 {
+  @include title-text;
 }
 
 .scroll-indicator {
+  margin: 0 15vw 5vh 35vw;
   width: 20px;
   height: 40px;
-  border: 2px solid #b2faffc7;
+  border: 2px solid $indicator-color;
   border-radius: 50px;
   position: relative;
-  box-shadow: 0px 0px 35px -5px #6df5dec7;
 }
 
 .scroll-indicator::before {
@@ -19,13 +38,12 @@
   position: absolute;
   top: 0.5em;
   left: 50%;
-  width: 10px;
+  width: 3px;
   height: 10px;
-  background-color: #b2faffc7;
-  border-radius: 50%;
+  background-color: $indicator-color;
+  border-radius: 3px;
   transform: translate(-50%, 0);
   animation: scrollAnim 1.8s 0.5s infinite ease-in;
-  box-shadow: 0px 0px 35px -5px #46ffe0c7;
 }
 
 @keyframes scrollAnim {

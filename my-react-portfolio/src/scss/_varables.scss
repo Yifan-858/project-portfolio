@@ -1,4 +1,11 @@
 $background-color: #0e1d2e;
 $main-text-color: #ffffff;
 $sub-text-color: #cfcfcf;
+$indicator-color: #cfcfcfaa;
 $title-color: #0093fd;
+
+@mixin title-text {
+  color: $title-color;
+  font-size: 3.5rem;
+  margin-top: 0;
+}
