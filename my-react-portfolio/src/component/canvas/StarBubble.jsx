@@ -11,7 +11,23 @@ const StarBubble = () => {
   );
   return (
     <>
-      <primitive object={starBubble.scene} scale={5} />
+      <pointLight intensity={20} color="red" />
+      <pointLight intensity={50} position={[5, 5, 5]} color="#0093fd" />
+      <rectAreaLight
+        intensity={10}
+        color="#ff4949"
+        width={20}
+        height={30}
+        position={[10, 5, 0]}
+      />
+      <rectAreaLight
+        intensity={15}
+        color="#0093fd"
+        width={20}
+        height={30}
+        position={[0, 0, 10]}
+      />
+      <primitive object={starBubble.scene} scale={6} />
     </>
   );
 };
@@ -25,6 +41,8 @@ export const StarBubbleCanvas = () => {
         <Suspense fallback={null}>
           <StarBubble />
           <OrbitControls
+            autoRotate
+            autoRotateSpeed={0.5}
             enableZoom={false}
             maxPolarAngle={Math.PI / 2}
             minPolarAngle={Math.PI / 2}

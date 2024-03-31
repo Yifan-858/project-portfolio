@@ -9,7 +9,12 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-color: $background-color;
+  background: linear-gradient(
+      #0e1d2edd 0.1%,
+      #0e1d2ef7 3%,
+      $background-color 35%
+    ),
+    url("../../public/3d-models/background-img.jpg");
   color: $main-text-color;
   font-family: "Montserrat", sans-serif;
 }
