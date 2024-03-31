@@ -24,6 +24,13 @@ article h1 {
   @include title-text;
 }
 
+.star-bubble {
+  top: 20vh;
+  position: absolute;
+  width: 80vw;
+  height: 80vh;
+}
+
 .scroll-indicator {
   margin: 0 15vw 5vh 35vw;
   width: 20px;
