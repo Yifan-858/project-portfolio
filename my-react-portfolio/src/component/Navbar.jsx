@@ -1,7 +1,7 @@
 export const NavBar = () => {
   return (
     <nav className="nav-bar">
-      <p>Yifan | Web Developer</p>
+      <p>Y</p>
       <ul>
         <li>About</li>
         <li>Project</li>
