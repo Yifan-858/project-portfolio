@@ -14,7 +14,9 @@ body {
       #0e1d2ef7 3%,
       $background-color 35%
     ),
-    url("../../public/3d-models/background-img.jpg");
+    url("../../public/background-img.png") no-repeat;
+
+  background-size: cover;
   color: $main-text-color;
   font-family: "Montserrat", sans-serif;
 }
