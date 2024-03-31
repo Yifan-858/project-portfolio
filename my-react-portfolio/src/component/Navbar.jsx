@@ -1,10 +1,11 @@
 export const NavBar = () => {
   return (
     <nav className="nav-bar">
-      <p>Y</p>
+      <p>Y heropage</p>
       <ul>
+        <li>Skills</li>
+        <li>Projects</li>
         <li>About</li>
-        <li>Project</li>
         <li>Contact</li>
       </ul>
     </nav>
