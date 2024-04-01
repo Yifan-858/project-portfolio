@@ -1,0 +1,9 @@
+@import "./varables";
+
+.about-section {
+  margin: 30vh 0 0 23vw;
+
+  h1 {
+    @include title-text;
+  }
+}
