@@ -1,4 +1,4 @@
-import { SkillBalls } from "./canvas/SkillBalls";
+import { SkillBallsCanvas } from "./canvas/SkillBalls";
 import data from "../constants/data.json";
 
 export const Tech = () => {
@@ -7,12 +7,10 @@ export const Tech = () => {
       <h1>Tech</h1>
       <div className="skill-list">
         {data.tech.map((technology) => (
-          <SkillBalls icon={technology.icon} />
+          <SkillBallsCanvas key={technology.name} icon={technology.icon} />
         ))}
         {data.tech.map((technology) => (
-          <ul>
-            <li key={technology.name}>{technology.name}</li>
-          </ul>
+          <p key={technology.name}>{technology.name}</p>
         ))}
       </div>
     </section>
