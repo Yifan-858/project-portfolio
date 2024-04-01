@@ -7,9 +7,10 @@ const SkillBalls = (props) => {
 
   return (
     <Float speed={0.1} rotationIntensity={1} floatIntensity={2}>
-      <ambientLight intensity={2} />
-      <directionalLight position={[0, 0, 0.05]} />
-      <mesh castShadow receiveShadow scale={1.5}>
+      <ambientLight intensity={0.5} />
+      <pointLight intensity={20} color="#ffffff" position={[0, 0, 5]} />
+      <pointLight intensity={50} color="#ffffff" position={[5, 5, 5]} />
+      <mesh castShadow receiveShadow scale={2}>
         <icosahedronGeometry args={[1, 1]} />
         <meshStandardMaterial
           color="#ffffff"
@@ -33,8 +34,10 @@ export const SkillBallsCanvas = ({ icon }) => {
   return (
     <div className="skill-balls">
       <Canvas frameloop="demand" gl={{ preserveDrawingBuffer: true }}>
-        <OrbitControls enableZoom={false} />
-        <SkillBalls imgUrl={icon} />
+        <Suspense>
+          <OrbitControls enableZoom={false} />
+          <SkillBalls imgUrl={icon} />
+        </Suspense>
       </Canvas>
     </div>
   );
