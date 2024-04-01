@@ -18,15 +18,17 @@ article h4 {
   color: $sub-text-color;
   font-size: 1.5rem;
   letter-spacing: 3px;
+  text-shadow: 0 0 30px $sub-text-glow-color;
 }
 
 article h1 {
   @include title-text;
+  text-shadow: 0 0 30px $title-glow-color;
 }
 
 .star-bubble {
   top: 5%;
-  left: 38%;
+  left: 35%;
   position: absolute;
   width: 60vw;
   height: 80vh;

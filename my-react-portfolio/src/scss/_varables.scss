@@ -3,9 +3,12 @@ $main-text-color: #ffffff;
 $sub-text-color: #cfcfcf;
 $indicator-color: #cfcfcfaa;
 $title-color: #0093fd;
+$title-glow-color: #0094fd8a;
+$sub-text-glow-color: #cfcfcfa3;
 
 @mixin title-text {
   color: $title-color;
+  text-shadow: 0 0 30px $title-glow-color;
   font-size: 3.5rem;
   margin-top: 0;
 }

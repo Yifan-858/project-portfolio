@@ -1,0 +1,15 @@
+{
+  "tech": [
+    { "name": "HMTL5", "icon": "../../public/tech/html.png" },
+    { "name": "CSS", "icon": "../../public/tech/css.png" },
+    { "name": "JavaScript", "icon": "../../public/tech/javascript.png" },
+    { "name": "TypeScript", "icon": "../../public/tech/typescript.png" },
+    { "name": "ReactJS", "icon": "../../public/tech/reactjs.png" },
+    { "name": "SASS", "icon": "../../public/tech/sass.png" },
+    { "name": "ThreeJS", "icon": "../../public/tech/threejs.png" },
+    { "name": "NodeJS", "icon": "../../public/tech/nodejs.png" },
+    { "name": "MongoDB", "icon": "../../public/tech/mongodb.png" },
+    { "name": "Git", "icon": "../../public/tech/git.png" },
+    { "name": "Figma", "icon": "../../public/tech/figma.png" }
+  ]
+}
