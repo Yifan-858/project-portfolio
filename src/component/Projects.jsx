@@ -3,24 +3,65 @@ import data from "../constants/data.json";
 export const Projects = () => {
   return (
     <section className="projects-section">
-      <h1>Projects</h1>
+      <h1>Featured Projects</h1>
       <div className="project-display">
         {data.projects.map((project) => (
           <div className="each-project" key={project.name}>
-            <h3 className="project-title">{project.name}</h3>
-            <p>{project.description}</p>
-            <ul>
-              {project.tech.map((technology, index) => (
-                <li key={index}>{technology}</li>
-              ))}
-            </ul>
-            <div className="project-link">
-              <a href={project.demo}>
-                <p>View project</p>
-              </a>
-              <a href={project.code}>
-                <p>View code</p>
-              </a>
+            <img
+              className="project-img"
+              src={project.image}
+              alt={project.name}
+            />
+            <div className="project-text">
+              <h3 className="project-title">{project.name}</h3>
+              <p className="project-description">{project.description}</p>
+              <ul className="tech-list">
+                {project.tech.map((technology, index) => (
+                  <li key={index}>{technology}</li>
+                ))}
+              </ul>
+              <div className="project-link">
+                <a href={project.demo} target="_blank">
+                  <p>
+                    <span>View project</span>
+                    <svg
+                      stroke="currentColor"
+                      fill="currentColor"
+                      stroke-width="0"
+                      viewBox="0 0 20 20"
+                      height="1em"
+                      width="1em"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z"
+                        clip-rule="evenodd"
+                      ></path>
+                    </svg>
+                  </p>
+                </a>
+                <a href={project.code} target="_blank">
+                  <p>
+                    <span>View code</span>
+                    <svg
+                      stroke="currentColor"
+                      fill="currentColor"
+                      stroke-width="0"
+                      viewBox="0 0 20 20"
+                      height="1em"
+                      width="1em"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z"
+                        clip-rule="evenodd"
+                      ></path>
+                    </svg>
+                  </p>
+                </a>
+              </div>
             </div>
           </div>
         ))}

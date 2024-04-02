@@ -23,6 +23,11 @@ body {
   background-size: cover;
   color: $main-text-color;
   font-family: "Montserrat", sans-serif;
+
+  ::selection {
+    background-color: $title-color;
+    color: $background-color;
+  }
 }
 
 main {

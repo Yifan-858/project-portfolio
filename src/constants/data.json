@@ -17,6 +17,7 @@
   "projects": [
     {
       "name": "Happy Thoughts App",
+      "image": "projects-happythought.png",
       "description": "The chat bot app is a conversational AI-powered tool designed to enhance user experience by providing instant, personalized, and automated responses to user inquiries.",
       "tech": ["React", "SASS", "HTML"],
       "demo": "https://yifan-happy-thought-post.netlify.app",
@@ -24,6 +25,7 @@
     },
     {
       "name": "Dream Home Survey",
+      "image": "projects-survey.png",
       "description": "The chat bot app is a conversational AI-powered tool designed to enhance user experience by providing instant, personalized, and automated responses to user inquiries.",
       "tech": ["React", "CSS", "HTML"],
       "demo": "https://yifan-survey-project.netlify.app/",
@@ -31,6 +33,7 @@
     },
     {
       "name": "Music Releases",
+      "image": "projects-music.png",
       "description": "The chat bot app is a conversational AI-powered tool designed to enhance user experience by providing instant, personalized, and automated responses to user inquiries.",
       "tech": ["React", "CSS", "HTML"],
       "demo": "https://week05-music-release-site.netlify.app",
@@ -38,6 +41,7 @@
     },
     {
       "name": "Weather App",
+      "image": "projects-weather.png",
       "description": "The chat bot app is a conversational AI-powered tool designed to enhance user experience by providing instant, personalized, and automated responses to user inquiries.",
       "tech": ["JavaScript", "CSS", "HTML"],
       "demo": "https://yifan-weather-app.netlify.app/",
@@ -45,6 +49,7 @@
     },
     {
       "name": "Chatbot built in JavaScript",
+      "image": "projects-chatbot.png",
       "description": "The chat bot app is a conversational AI-powered tool designed to enhance user experience by providing instant, personalized, and automated responses to user inquiries.",
       "tech": ["HTML", "CSS", "JavaScript"],
       "demo": "https://yifan-chat-bot.netlify.app/",
