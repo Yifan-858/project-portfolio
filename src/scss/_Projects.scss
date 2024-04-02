@@ -4,8 +4,15 @@
   margin: 1rem 0 0 23vw;
   padding-top: 1rem;
 
+  @include mobile {
+    @include mobile-position;
+  }
+
   h1 {
     @include title-text;
+    @include mobile {
+      @include mobile-title-text-size;
+    }
   }
 
   .project-display {
@@ -24,22 +31,47 @@
     box-shadow: inset 0px 0 15px $ball-glow-color;
     transition: all 1s;
 
+    @include mobile {
+      margin: 80px auto;
+      border-radius: 15px;
+      flex-direction: column;
+    }
+
     .project-img {
       border-radius: 30px;
+
+      @include mobile {
+        width: 100%;
+        height: 150px;
+        object-fit: cover;
+        border-radius: 15px;
+      }
     }
 
     .project-text {
       margin-left: 20px;
       color: $sub-text-color;
+
+      @include mobile {
+        margin: 15px 15px;
+      }
     }
 
     .project-title {
       margin: 0;
       font-size: 1.5rem;
+
+      @include mobile {
+        font-size: 1.2rem;
+      }
     }
 
     .project-description {
       margin: 15px 0 0 0;
+
+      @include mobile {
+        font-size: 0.9rem;
+      }
     }
 
     .tech-list {
@@ -58,6 +90,9 @@
         font-weight: 600;
         font-size: 1rem;
         border-radius: 5px;
+        @include mobile {
+          font-size: 0.8rem;
+        }
       }
     }
 
@@ -79,6 +114,9 @@
           padding: 10px;
           border-radius: 10px;
           transition: box-shadow 0.5s;
+          @include mobile {
+            font-size: 0.8rem;
+          }
 
           svg {
             margin-left: 7px;
@@ -91,6 +129,9 @@
       a:hover {
         p {
           box-shadow: 0px 0 15px $title-color;
+          @include mobile {
+            font-size: 0.8rem;
+          }
 
           svg {
             transform: translateY(3px) translateX(6px);

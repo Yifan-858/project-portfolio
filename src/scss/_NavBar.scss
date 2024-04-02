@@ -11,6 +11,10 @@
   justify-content: space-between;
   align-items: center;
 
+  @include mobile {
+    display: none;
+  }
+
   .section-bar {
     margin: 0;
     writing-mode: vertical-rl;
@@ -34,6 +38,10 @@
       font-weight: 600;
       cursor: pointer;
       transition: all 0.5s;
+
+      @include mobile {
+        font-size: 1rem;
+      }
     }
 
     li:hover {
@@ -49,6 +57,10 @@
 
     li {
       font-size: 1.8rem;
+
+      @include mobile {
+        font-size: 1.5rem;
+      }
     }
   }
 }

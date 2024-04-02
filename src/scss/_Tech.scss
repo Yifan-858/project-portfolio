@@ -9,8 +9,16 @@
   justify-content: flex-start;
   align-items: flex-start;
 
+  @include mobile {
+    margin: 8rem 0 0 50px;
+    padding-top: 2rem;
+  }
+
   h1 {
     @include title-text;
+    @include mobile {
+      @include mobile-title-text-size;
+    }
   }
 
   .skill-list {
@@ -21,6 +29,12 @@
     justify-content: center;
     align-items: center;
 
+    @include mobile {
+      margin-top: 10px;
+      flex-direction: row;
+      align-items: flex-start;
+    }
+
     .skill-canvas {
       width: 70%;
       display: flex;
@@ -29,6 +43,11 @@
       align-items: center;
       flex-wrap: wrap;
 
+      @include mobile {
+        flex-direction: column;
+        height: 500px;
+      }
+
       .skill-balls {
         border-radius: 50%;
         box-shadow: 0px 0 15px $ball-glow-color;
@@ -36,6 +55,11 @@
         width: 80px;
         height: 80px;
         transition: box-shadow 0.6s;
+
+        @include mobile {
+          width: 45px;
+          height: 45px;
+        }
       }
 
       .skill-balls:hover {
@@ -53,6 +77,10 @@
       justify-content: center;
       align-items: center;
       flex-wrap: wrap;
+      @include mobile {
+        font-size: 0.9rem;
+        margin-left: 60px;
+      }
 
       p {
         margin-left: 10px;

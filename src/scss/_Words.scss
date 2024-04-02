@@ -2,8 +2,14 @@
 
 .words-section {
   margin: 30vh 0 0 23vw;
+  @include mobile {
+    @include mobile-position;
+  }
 
   h1 {
     @include title-text;
+    @include mobile {
+      @include mobile-title-text-size;
+    }
   }
 }

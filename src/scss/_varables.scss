@@ -13,3 +13,30 @@ $ball-glow-color: #cfcfcf3c;
   font-size: 3.5rem;
   margin-top: 0;
 }
+@mixin mobile-title-text-size {
+  font-size: 2.5rem;
+}
+
+@mixin mobile-margin-left {
+  margin-left: 20px;
+}
+@mixin mobile-position {
+  margin: 8rem 0 0 50px;
+  padding-top: 2rem;
+}
+
+@mixin mobile {
+  @media (max-width: 425px) {
+    @content;
+  }
+}
+@mixin tablet {
+  @media (max-width: 768px) {
+    @content;
+  }
+}
+@mixin laptop {
+  @media (max-width: 1024px) {
+    @content;
+  }
+}

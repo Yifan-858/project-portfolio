@@ -1,8 +1,13 @@
 @import "./varables";
 
 .footer-section {
+  color: $sub-text-glow-color;
   margin-top: 3rem;
   display: flex;
   justify-content: center;
   align-items: center;
+  @include mobile {
+    margin-left: 50px;
+    justify-content: flex-start;
+  }
 }
