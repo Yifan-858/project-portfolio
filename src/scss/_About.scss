@@ -6,4 +6,37 @@
   h1 {
     @include title-text;
   }
+
+  .text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+  }
+
+  .about-text {
+    margin-top: 6rem;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+    .hi-text {
+      font-size: 1.5rem;
+    }
+
+    p {
+      font-size: 1.2rem;
+      color: $sub-text-color;
+      line-height: 30px;
+      margin: 5px;
+
+      span {
+        color: $title-color;
+        font-weight: 600;
+      }
+    }
+  }
 }

@@ -3,7 +3,7 @@ import data from "../constants/data.json";
 
 export const Tech = () => {
   return (
-    <section className="tech-section">
+    <section className="tech-section" id="tech-section">
       <h1>Tech</h1>
       <div className="skill-list">
         <div className="skill-canvas">

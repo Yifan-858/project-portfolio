@@ -5,6 +5,7 @@ import { Projects } from "./Projects";
 import { Words } from "./Words";
 import { About } from "./About";
 import { Contact } from "./Contact";
+import { Footer } from "./Footer";
 
 export { NavBar };
 export { Hero };
@@ -13,3 +14,4 @@ export { Projects };
 export { Words };
 export { About };
 export { Contact };
+export { Footer };

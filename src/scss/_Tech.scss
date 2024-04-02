@@ -1,7 +1,8 @@
 @import "./varables";
 
 .tech-section {
-  margin: 16rem 0 0 23vw;
+  margin: 8rem 0 0 23vw;
+  padding-top: 10rem;
   height: 80vh;
   display: flex;
   flex-direction: column;
@@ -38,7 +39,7 @@
       }
 
       .skill-balls:hover {
-        box-shadow: 0px 0 15px $title-glow-color;
+        box-shadow: 0px 0 25px $title-glow-color;
       }
     }
     .skill-description {

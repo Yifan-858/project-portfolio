@@ -21,6 +21,11 @@
     justify-content: center;
     align-items: center;
 
+    a:focus,
+    a:visited {
+      text-decoration: none;
+    }
+
     li {
       margin-bottom: 2.5rem;
       list-style-type: none;

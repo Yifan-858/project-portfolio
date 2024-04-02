@@ -1,9 +1,33 @@
 @import "./varables";
 
 .contact-section {
-  margin: 3vh 0 0 23vw;
+  margin: 16rem 0 0 23vw;
 
   h1 {
     @include title-text;
+  }
+
+  .contact-container {
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+
+    .contact-info {
+      color: $sub-text-color;
+      font-size: 1.3rem;
+      display: flex;
+      padding: rem 0 0 0;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+      img {
+        width: 120px;
+        border-radius: 50%;
+      }
+    }
   }
 }

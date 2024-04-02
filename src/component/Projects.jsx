@@ -2,7 +2,7 @@ import data from "../constants/data.json";
 
 export const Projects = () => {
   return (
-    <section className="projects-section">
+    <section className="projects-section" id="projects-section">
       <h1>Featured Projects</h1>
       <div className="project-display">
         {data.projects.map((project) => (

@@ -6,6 +6,7 @@ import {
   Words,
   About,
   Contact,
+  Footer,
 } from "./component";
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
       <Words />
       <About />
       <Contact />
+      <Footer />
     </main>
   );
 }

@@ -2,7 +2,7 @@ import { StarBubbleCanvas } from "./canvas/StarBubble";
 
 export const Hero = () => {
   return (
-    <section className="hero-section">
+    <section className="hero-section" id="hero-section">
       <div className="hero-text">
         <article>
           <h4>YIFAN WANG</h4>
