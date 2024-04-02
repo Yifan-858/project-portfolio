@@ -5,10 +5,7 @@ import { GLTFLoader } from "three/examples/jsm/loaders/GLTFLoader";
 import { Suspense } from "react";
 
 const StarBubble = () => {
-  const starBubble = useLoader(
-    GLTFLoader,
-    "../../../public/3d-models/StarBubble.gltf"
-  );
+  const starBubble = useLoader(GLTFLoader, "/StarBubble.gltf");
   return (
     <>
       <pointLight intensity={20} color="red" />

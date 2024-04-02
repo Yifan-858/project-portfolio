@@ -1,4 +1,5 @@
 {
+  "hero": { "name": "StarBubble", "display": "StarBubble.gltf" },
   "tech": [
     { "name": "HMTL5", "icon": "html.png" },
     { "name": "CSS", "icon": "css.png" },
