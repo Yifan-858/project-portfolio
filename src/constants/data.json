@@ -1,16 +1,16 @@
 {
   "tech": [
-    { "name": "HMTL5", "icon": "../../public/html.png" },
-    { "name": "CSS", "icon": "../../public/css.png" },
-    { "name": "JavaScript", "icon": "../../public/javascript.png" },
-    { "name": "TypeScript", "icon": "../../public/typescript.png" },
-    { "name": "ReactJS", "icon": "../../public/reactjs.png" },
-    { "name": "SASS", "icon": "../../public/sass.png" },
-    { "name": "ThreeJS", "icon": "../../public/threejs.png" },
-    { "name": "NodeJS", "icon": "../../public/nodejs.png" },
-    { "name": "MongoDB", "icon": "../../public/mongodb.png" },
-    { "name": "Git", "icon": "../../public/git.png" },
-    { "name": "Figma", "icon": "../../public/figma.png" }
+    { "name": "HMTL5", "icon": "html.png" },
+    { "name": "CSS", "icon": "css.png" },
+    { "name": "JavaScript", "icon": "javascript.png" },
+    { "name": "TypeScript", "icon": "typescript.png" },
+    { "name": "ReactJS", "icon": "reactjs.png" },
+    { "name": "SASS", "icon": "sass.png" },
+    { "name": "ThreeJS", "icon": "threejs.png" },
+    { "name": "NodeJS", "icon": "nodejs.png" },
+    { "name": "MongoDB", "icon": "mongodb.png" },
+    { "name": "Git", "icon": "git.png" },
+    { "name": "Figma", "icon": "figma.png" }
   ],
 
   "projects": [
