@@ -25,6 +25,11 @@
     justify-content: center;
     align-items: center;
 
+    .nav-icon {
+      font-size: 1.5rem;
+      transform: translateX(-3px);
+    }
+
     a,
     a:focus,
     a:visited {
