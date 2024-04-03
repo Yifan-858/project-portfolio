@@ -7,17 +7,33 @@
   @include mobile {
     @include mobile-position;
   }
+  @include tablet {
+    @include tablet-position;
+  }
+  @include laptop {
+    @include laptop-position;
+  }
 
   h1 {
     @include title-text;
     @include mobile {
       @include mobile-title-text-size;
     }
+    @include tablet {
+      @include tablet-title-text-size;
+    }
   }
 
   .project-display {
     margin-top: 100px;
     width: 90%;
+
+    @include tablet {
+      margin: 100px auto;
+    }
+    @include laptop {
+      margin: 100px 0;
+    }
   }
 
   .each-project {
@@ -37,12 +53,23 @@
       flex-direction: column;
     }
 
+    @include tablet {
+      margin: 80px 0;
+      flex-direction: column;
+    }
+
     .project-img {
       border-radius: 30px;
 
       @include mobile {
         width: 100%;
         height: 150px;
+        object-fit: cover;
+        border-radius: 15px;
+      }
+      @include tablet {
+        width: 100%;
+        height: 300px;
         object-fit: cover;
         border-radius: 15px;
       }
@@ -55,6 +82,9 @@
       @include mobile {
         margin: 15px 15px;
       }
+      @include tablet {
+        margin: 15px 15px;
+      }
     }
 
     .project-title {
@@ -64,6 +94,12 @@
       @include mobile {
         font-size: 1.2rem;
       }
+      @include tablet {
+        font-size: 1.4rem;
+      }
+      @include laptop {
+        font-size: 1.2rem;
+      }
     }
 
     .project-description {
@@ -71,6 +107,13 @@
 
       @include mobile {
         font-size: 0.9rem;
+      }
+      @include tablet {
+        font-size: 1rem;
+      }
+      @include laptop {
+        font-size: 0.8rem;
+        width: 90%;
       }
     }
 
@@ -90,7 +133,14 @@
         font-weight: 600;
         font-size: 1rem;
         border-radius: 5px;
+
         @include mobile {
+          font-size: 0.8rem;
+        }
+        @include tablet {
+          font-size: 1rem;
+        }
+        @include laptop {
           font-size: 0.8rem;
         }
       }
@@ -116,6 +166,14 @@
           transition: box-shadow 0.5s;
           @include mobile {
             font-size: 0.8rem;
+            margin: 10px 0;
+          }
+          @include tablet {
+            font-size: 1rem;
+            margin: 20px 0;
+          }
+          @include laptop {
+            font-size: 0.8rem;
           }
 
           svg {
@@ -130,6 +188,14 @@
         p {
           box-shadow: 0px 0 15px $title-color;
           @include mobile {
+            font-size: 0.8rem;
+            margin: 10px 0;
+          }
+          @include tablet {
+            font-size: 1rem;
+            margin: 20px 0;
+          }
+          @include laptop {
             font-size: 0.8rem;
           }
 

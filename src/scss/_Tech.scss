@@ -10,14 +10,22 @@
   align-items: flex-start;
 
   @include mobile {
-    margin: 8rem 0 0 50px;
-    padding-top: 2rem;
+    @include mobile-position;
+  }
+  @include tablet {
+    @include tablet-position;
+  }
+  @include laptop {
+    @include laptop-position;
   }
 
   h1 {
     @include title-text;
     @include mobile {
       @include mobile-title-text-size;
+    }
+    @include tablet {
+      @include tablet-title-text-size;
     }
   }
 
@@ -33,6 +41,10 @@
       margin-top: 10px;
       flex-direction: row;
       align-items: flex-start;
+    }
+
+    @include laptop {
+      margin: 5rem 0 0 20px;
     }
 
     .skill-canvas {

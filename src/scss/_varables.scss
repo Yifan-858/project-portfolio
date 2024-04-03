@@ -17,12 +17,22 @@ $ball-glow-color: #cfcfcf3c;
   font-size: 2.5rem;
 }
 
-@mixin mobile-margin-left {
-  margin-left: 20px;
-}
 @mixin mobile-position {
   margin: 8rem 0 0 50px;
   padding-top: 2rem;
+}
+
+@mixin tablet-title-text-size {
+  font-size: 2.5rem;
+}
+
+@mixin tablet-position {
+  margin: 8rem 0 0 10rem;
+  padding-top: 1.5rem;
+}
+@mixin laptop-position {
+  margin: 8rem 0 0 23vw;
+  padding-top: 1.5rem;
 }
 
 @mixin mobile {

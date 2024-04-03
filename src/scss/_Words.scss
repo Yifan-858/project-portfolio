@@ -5,11 +5,17 @@
   @include mobile {
     @include mobile-position;
   }
+  @include tablet {
+    @include tablet-position;
+  }
 
   h1 {
     @include title-text;
     @include mobile {
       @include mobile-title-text-size;
+    }
+    @include tablet {
+      @include tablet-title-text-size;
     }
   }
 }

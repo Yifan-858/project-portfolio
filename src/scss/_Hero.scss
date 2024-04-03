@@ -10,7 +10,11 @@
   align-items: flex-start;
 
   @include mobile {
-    @include mobile-margin-left;
+    margin-left: 20px;
+  }
+
+  @include tablet {
+    margin-left: 70px;
   }
 }
 
@@ -27,6 +31,10 @@ article h4 {
   @include mobile {
     font-size: 1.2rem;
   }
+
+  @include tablet {
+    font-size: 1.3rem;
+  }
 }
 
 article h1 {
@@ -35,6 +43,9 @@ article h1 {
 
   @include mobile {
     @include mobile-title-text-size;
+  }
+  @include tablet {
+    @include tablet-title-text-size;
   }
 }
 
@@ -51,6 +62,12 @@ article h1 {
     top: 320px;
     left: 70px;
   }
+  @include tablet {
+    width: 550px;
+    height: 600px;
+    top: 250px;
+    left: 180px;
+  }
 }
 
 .scroll-indicator {
@@ -63,6 +80,9 @@ article h1 {
   position: relative;
 
   @include mobile {
+    margin: 0 auto 5vh;
+  }
+  @include tablet {
     margin: 0 auto 5vh;
   }
 }

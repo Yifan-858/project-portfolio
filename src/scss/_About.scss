@@ -5,11 +5,17 @@
   @include mobile {
     margin: 30vh 50px;
   }
+  @include tablet {
+    @include tablet-position;
+  }
 
   h1 {
     @include title-text;
     @include mobile {
       @include mobile-title-text-size;
+    }
+    @include tablet {
+      @include tablet-title-text-size;
     }
   }
 
@@ -21,6 +27,10 @@
     width: 70%;
 
     @include mobile {
+      width: 100%;
+      margin: 0 auto;
+    }
+    @include tablet {
       width: 100%;
       margin: 0 auto;
     }
@@ -37,6 +47,14 @@
     @include mobile {
       margin: 20px auto;
       width: 90%;
+    }
+    @include tablet {
+      margin: 30px auto;
+      width: 80%;
+    }
+    @include laptop {
+      margin: 30px 0 0 150px;
+      width: 100%;
     }
 
     .hi-text {
