@@ -11,6 +11,7 @@ export const Projects = () => {
               className="project-img"
               src={project.image}
               alt={project.name}
+              loading="lazy"
             />
             <div className="project-text">
               <h3 className="project-title">{project.name}</h3>
