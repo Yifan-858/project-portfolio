@@ -7,7 +7,7 @@
 
 ### Introduction
 
-This is my protfolio website to showcase a series of frontend develop projects. It is built with [Vite](https://vitejs.dev/),[React](https://react.dev/),[ThreeJS](https://threejs.org/).
+This is my protfolio website to showcase a series of frontend develop projects. It is built with [Vite](https://vitejs.dev/),[React](https://react.dev/),and [ThreeJS](https://threejs.org/).
 
 ### View it live
 
