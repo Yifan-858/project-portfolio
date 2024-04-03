@@ -1,7 +1,7 @@
 @import "./varables";
 
 .projects-section {
-  margin: 1rem 0 0 23vw;
+  margin: 12rem 0 0 23vw;
   padding-top: 1rem;
 
   @include mobile {
@@ -11,7 +11,8 @@
     @include tablet-position;
   }
   @include laptop {
-    @include laptop-position;
+    margin: 12rem 0 0 23vw;
+    padding-top: 1.5rem;
   }
 
   h1 {
