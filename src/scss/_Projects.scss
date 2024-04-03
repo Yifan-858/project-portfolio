@@ -15,7 +15,7 @@
     padding-top: 1.5rem;
   }
 
-  h1 {
+  .section-title {
     @include title-text;
     @include mobile {
       @include mobile-title-text-size;

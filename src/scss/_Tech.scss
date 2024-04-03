@@ -19,7 +19,7 @@
     @include laptop-position;
   }
 
-  h1 {
+  .section-title {
     @include title-text;
     @include mobile {
       @include mobile-title-text-size;

@@ -3,7 +3,7 @@ import data from "../constants/data.json";
 export const Projects = () => {
   return (
     <section className="projects-section" id="projects-section">
-      <h1>Featured Projects</h1>
+      <h2 className="section-title">Featured Projects</h2>
       <div className="project-display">
         {data.projects.map((project) => (
           <div className="each-project" key={project.name}>

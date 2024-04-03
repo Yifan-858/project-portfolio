@@ -3,7 +3,7 @@ import data from "../constants/data.json";
 export const Contact = () => {
   return (
     <div className="contact-section" id="contact-section">
-      <h1>Contact</h1>
+      <h2 className="section-title">Contact</h2>
       <div className="contact-container">
         <div className="contact-info">
           <img src={data.contact["profile-img"]} alt="profile-img" />

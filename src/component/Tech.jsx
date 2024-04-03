@@ -4,7 +4,7 @@ import data from "../constants/data.json";
 export const Tech = () => {
   return (
     <section className="tech-section" id="tech-section">
-      <h1>Tech</h1>
+      <h2 className="section-title">Tech</h2>
       <div className="skill-list">
         <div className="skill-canvas">
           {data.tech.map((technology) => (
