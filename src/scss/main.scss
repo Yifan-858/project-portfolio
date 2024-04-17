@@ -8,7 +8,6 @@
 @import "./Contact";
 @import "./Footer";
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
-// @import url("https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500;600;700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 
 body {
   margin: 0;
@@ -21,7 +20,7 @@ body {
       #0e1d2ef8 95%,
       #0e1d2ef3 99.9%
     ),
-    url("background-img.png") no-repeat;
+    url("../assets/background-img.png") no-repeat;
 
   background-size: cover;
   color: $main-text-color;
