@@ -18,7 +18,7 @@
     {
       "name": "To-do List",
       "image": "projects-todolist.png",
-      "description": "The chat bot app is a conversational AI-powered tool designed to enhance user experience by providing instant, personalized, and automated responses to user inquiries.",
+      "description": "A simple To-Do List App allows users to manage their tasks efficiently. Users can add tasks with descriptions, mark tasks as complete, remove tasks, and toggle between light and dark themes.",
       "tech": ["React", "CSS", "HTML"],
       "demo": "https://yifan-movie-website.netlify.app",
       "code": "https://github.com/Yifan-858/project-todos-context-vite?tab=readme-ov-file"
@@ -26,7 +26,7 @@
     {
       "name": "Movie App",
       "image": "projects-movie.png",
-      "description": "The chat bot app is a conversational AI-powered tool designed to enhance user experience by providing instant, personalized, and automated responses to user inquiries.",
+      "description": "The movie app lets user search and browse through movies according to different sorting. If the user have a favorite movie and want to find similar ones, the app has a feature to show similar options.",
       "tech": ["React", "CSS", "HTML"],
       "demo": "https://yifan-movie-website.netlify.app",
       "code": "https://github.com/Yifan-858/project-movies-vite"
@@ -34,7 +34,7 @@
     {
       "name": "Happy Thoughts App",
       "image": "projects-happythought.png",
-      "description": "The chat bot app is a conversational AI-powered tool designed to enhance user experience by providing instant, personalized, and automated responses to user inquiries.",
+      "description": "The happy thought posting app allows users to share positive thoughts and messages with others. Users can view, like, and post their own happy thoughts.",
       "tech": ["React", "SASS", "HTML"],
       "demo": "https://yifan-happy-thought-post.netlify.app",
       "code": "https://github.com/Yifan-858/project-happy-thoughts-vite?tab=readme-ov-file"
@@ -42,7 +42,7 @@
     {
       "name": "Dream Home Survey",
       "image": "projects-survey.png",
-      "description": "The chat bot app is a conversational AI-powered tool designed to enhance user experience by providing instant, personalized, and automated responses to user inquiries.",
+      "description": "This survey app is designed to gather preferences from users regarding their ideal living space. Users engage with a dynamic questionnaire with various input types, such as drop-down questions, color picker, text field and so on.",
       "tech": ["React", "CSS", "HTML"],
       "demo": "https://yifan-survey-project.netlify.app/",
       "code": "https://github.com/Yifan-858/project-survey-vite?tab=readme-ov-file"
@@ -50,7 +50,7 @@
     {
       "name": "Music Releases",
       "image": "projects-music.png",
-      "description": "The chat bot app is a conversational AI-powered tool designed to enhance user experience by providing instant, personalized, and automated responses to user inquiries.",
+      "description": "TThe Music Releases app presents newly released music with organized components for albums and playlists. It offers interactive features like hovering over album covers for play and like options, and clicking on covers links to Spotify",
       "tech": ["React", "CSS", "HTML"],
       "demo": "https://week05-music-release-site.netlify.app",
       "code": "https://github.com/Yifan-858/project-music-releases-vite"
@@ -58,7 +58,7 @@
     {
       "name": "Weather App",
       "image": "projects-weather.png",
-      "description": "The chat bot app is a conversational AI-powered tool designed to enhance user experience by providing instant, personalized, and automated responses to user inquiries.",
+      "description": "A vanilla JS App where weather data is fetched from OpenWeather. It displays the weather information along with visual styles like different weather icons and color themes to represent the current conditions.",
       "tech": ["JavaScript", "CSS", "HTML"],
       "demo": "https://yifan-weather-app.netlify.app/",
       "code": "https://github.com/Yifan-858/project-weather-app"

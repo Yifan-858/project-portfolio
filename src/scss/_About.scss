@@ -27,12 +27,12 @@
     width: 80%;
 
     @include tablet {
-      width: 100%;
       margin: 0 auto;
+      width: 90%;
     }
     @include mobile {
-      width: 100%;
       margin: 0 auto;
+      width: 100%;
     }
   }
 
@@ -58,6 +58,7 @@
 
     .hi-text {
       font-size: 1.5rem;
+      margin-bottom: 1.2rem;
       @include mobile {
         font-size: 1.2rem;
       }
@@ -68,14 +69,14 @@
       color: $sub-text-color;
       line-height: 30px;
       margin: 5px;
-      width: 70%;
+      width: 100%;
 
       @include tablet {
         font-size: 1rem;
       }
 
       @include mobile {
-        font-size: 1rem;
+        font-size: 0.9rem;
       }
 
       span {
