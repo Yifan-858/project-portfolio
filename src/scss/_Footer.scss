@@ -2,12 +2,8 @@
 
 .footer-section {
   color: $sub-text-glow-color;
-  margin-top: 3rem;
+  margin: 3rem auto 0;
   display: flex;
   justify-content: center;
   align-items: center;
-  @include mobile {
-    margin-left: 50px;
-    justify-content: flex-start;
-  }
 }

@@ -1,15 +1,14 @@
 @import "./varables";
 
 .contact-section {
-  border: red 1px solid;
+  // border: red 1px solid;
   margin: 16rem 0 0 23vw;
 
   @include tablet {
     @include tablet-position;
   }
   @include mobile {
-    margin: 1rem auto;
-    transform: translateY(-180px);
+    @include mobile-position;
   }
 
   .section-title {
@@ -23,28 +22,28 @@
   }
 
   .contact-container {
-    height: 50vh;
+    // border: red 1px solid;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 70%;
+
     @include mobile {
-      height: 20vh;
+      width: 100%;
     }
 
     .contact-info {
       color: $sub-text-color;
       font-size: 1.3rem;
+      padding-top: 2rem;
       display: flex;
-      padding: 2rem 0 0 0;
       flex-direction: column;
       justify-content: center;
       align-items: center;
+
       @include mobile {
         font-size: 1rem;
-        padding-top: 150px;
-        align-items: flex-start;
       }
 
       img {

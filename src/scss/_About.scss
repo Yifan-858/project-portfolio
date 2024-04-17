@@ -1,13 +1,13 @@
 @import "./varables";
 
 .about-section {
-  border: red 1px solid;
+  // border: red 1px solid;
   margin: 30vh 0 0 23vw;
   @include tablet {
     @include tablet-position;
   }
   @include mobile {
-    margin: 30vh auto;
+    @include mobile-position;
   }
 
   .section-title {
@@ -53,7 +53,7 @@
     }
     @include mobile {
       margin: 20px auto;
-      width: 90%;
+      width: 100%;
     }
 
     .hi-text {
