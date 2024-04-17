@@ -1,22 +1,24 @@
 @import "./varables";
 
 .contact-section {
+  border: red 1px solid;
   margin: 16rem 0 0 23vw;
-  @include mobile {
-    margin: 1rem 0 0 50px;
-    transform: translateY(-180px);
-  }
+
   @include tablet {
     @include tablet-position;
+  }
+  @include mobile {
+    margin: 1rem auto;
+    transform: translateY(-180px);
   }
 
   .section-title {
     @include title-text;
-    @include mobile {
-      @include mobile-title-text-size;
-    }
     @include tablet {
       @include tablet-title-text-size;
+    }
+    @include mobile {
+      @include mobile-title-text-size;
     }
   }
 

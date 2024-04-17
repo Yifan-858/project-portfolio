@@ -1,12 +1,15 @@
 @import "./varables";
 
 .words-section {
+  border: red 1px solid;
   margin: 30vh 0 0 23vw;
-  @include mobile {
-    @include mobile-position;
-  }
+
   @include tablet {
     @include tablet-position;
+
+    @include mobile {
+      @include mobile-position;
+    }
   }
 
   .section-title {

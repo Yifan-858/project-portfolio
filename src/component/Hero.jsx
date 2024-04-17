@@ -8,8 +8,9 @@ export const Hero = () => {
           <h4>YIFAN WANG</h4>
           <h1>Frontend Developer</h1>
         </article>
+        <StarBubbleCanvas />
       </div>
-      <StarBubbleCanvas />
+
       <div className="scroll-indicator"></div>
     </section>
   );

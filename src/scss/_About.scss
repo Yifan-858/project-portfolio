@@ -1,21 +1,22 @@
 @import "./varables";
 
 .about-section {
+  border: red 1px solid;
   margin: 30vh 0 0 23vw;
-  @include mobile {
-    margin: 30vh 50px;
-  }
   @include tablet {
     @include tablet-position;
+  }
+  @include mobile {
+    margin: 30vh auto;
   }
 
   .section-title {
     @include title-text;
-    @include mobile {
-      @include mobile-title-text-size;
-    }
     @include tablet {
       @include tablet-title-text-size;
+    }
+    @include mobile {
+      @include mobile-title-text-size;
     }
   }
 
@@ -25,12 +26,11 @@
     justify-content: center;
     align-items: center;
     width: 70%;
-
-    @include mobile {
+    @include tablet {
       width: 100%;
       margin: 0 auto;
     }
-    @include tablet {
+    @include mobile {
       width: 100%;
       margin: 0 auto;
     }
@@ -43,18 +43,17 @@
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-
-    @include mobile {
-      margin: 20px auto;
-      width: 90%;
+    @include laptop {
+      margin: 30px 0 0 150px;
+      width: 100%;
     }
     @include tablet {
       margin: 30px auto;
       width: 80%;
     }
-    @include laptop {
-      margin: 30px 0 0 150px;
-      width: 100%;
+    @include mobile {
+      margin: 20px auto;
+      width: 90%;
     }
 
     .hi-text {
