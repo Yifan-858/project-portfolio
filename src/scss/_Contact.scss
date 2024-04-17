@@ -1,8 +1,7 @@
 @import "./varables";
 
 .contact-section {
-  // border: red 1px solid;
-  margin: 16rem 0 0 23vw;
+  margin: 8rem 0 0 23vw;
 
   @include tablet {
     @include tablet-position;
@@ -22,13 +21,15 @@
   }
 
   .contact-container {
-    // border: red 1px solid;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 70%;
 
+    @include tablet {
+      width: 100%;
+    }
     @include mobile {
       width: 100%;
     }

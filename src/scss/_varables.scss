@@ -18,7 +18,7 @@ $ball-glow-color: #cfcfcf3c;
 }
 
 @mixin mobile-position {
-  margin: 7rem 2rem;
+  margin: 8rem 24px;
   padding-top: 0;
 }
 
@@ -27,7 +27,7 @@ $ball-glow-color: #cfcfcf3c;
 }
 
 @mixin tablet-position {
-  margin: 8rem 0 0 10rem;
+  margin: 8rem 0 0 7.5rem;
   padding-top: 1.5rem;
 }
 @mixin laptop-position {
@@ -36,17 +36,17 @@ $ball-glow-color: #cfcfcf3c;
 }
 
 @mixin mobile {
-  @media (max-width: 425px) {
+  @media screen and (max-width: 425px) {
     @content;
   }
 }
 @mixin tablet {
-  @media (max-width: 768px) {
+  @media screen and (max-width: 768px) {
     @content;
   }
 }
 @mixin laptop {
-  @media (max-width: 1024px) {
+  @media screen and (max-width: 1024px) {
     @content;
   }
 }

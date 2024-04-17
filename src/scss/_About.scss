@@ -1,8 +1,7 @@
 @import "./varables";
 
 .about-section {
-  // border: red 1px solid;
-  margin: 30vh 0 0 23vw;
+  margin: 8rem 0 0 23vw;
   @include tablet {
     @include tablet-position;
   }
@@ -25,7 +24,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 70%;
+    width: 80%;
+
     @include tablet {
       width: 100%;
       margin: 0 auto;
@@ -37,15 +37,15 @@
   }
 
   .about-text {
-    margin-top: 6rem;
-    width: 70%;
+    margin: 80px 0;
+    width: 80%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
+
     @include laptop {
-      margin: 30px 0 0 150px;
-      width: 100%;
+      margin: 30px auto;
     }
     @include tablet {
       margin: 30px auto;
@@ -68,6 +68,11 @@
       color: $sub-text-color;
       line-height: 30px;
       margin: 5px;
+      width: 70%;
+
+      @include tablet {
+        font-size: 1rem;
+      }
 
       @include mobile {
         font-size: 1rem;

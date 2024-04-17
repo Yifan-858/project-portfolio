@@ -1,7 +1,6 @@
 @import "./varables";
 
 .tech-section {
-  // border: red 1px solid;
   margin: 8rem 0 0 23vw;
   padding-top: 10rem;
 
@@ -22,11 +21,11 @@
 
   .section-title {
     @include title-text;
-    @include mobile {
-      @include mobile-title-text-size;
-    }
     @include tablet {
       @include tablet-title-text-size;
+    }
+    @include mobile {
+      @include mobile-title-text-size;
     }
   }
 
@@ -40,6 +39,10 @@
 
     @include laptop {
       margin: 5rem 0 0 20px;
+    }
+    @include tablet {
+      margin: 3rem auto;
+      width: 100%;
     }
     @include mobile {
       margin: 2rem auto;
@@ -66,6 +69,10 @@
         height: 80px;
         transition: box-shadow 0.6s;
 
+        @include tablet {
+          width: 55px;
+          height: 55px;
+        }
         @include mobile {
           width: 55px;
           height: 55px;

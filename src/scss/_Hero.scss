@@ -1,11 +1,8 @@
 @import "./varables";
 
 .hero-section {
-  // border: red solid 1px;
   margin: 0 0 0 15vw;
-  width: 100%;
   height: 100vh;
-  position: relative;
 
   display: flex;
   flex-direction: column;
@@ -13,25 +10,33 @@
   align-items: flex-start;
 
   @include tablet {
-    margin-left: 70px;
+    width: calc(90vw - 2.5rem);
+    margin: 0 0 0 5rem;
   }
 
   @include mobile {
+    width: 99%;
     margin-left: 0px;
     margin-bottom: 2rem;
   }
 }
 
 .hero-text {
-  // border: red solid 1px;
   margin: 15vh 0 0 8vw;
-  @include tablet {
-    @include tablet-position;
 
-    @include mobile {
-      margin: 6rem 0;
-      padding: 0 2rem;
-    }
+  @include laptop {
+    position: relative;
+  }
+
+  @include tablet {
+    position: relative;
+    margin: 6rem 0;
+    padding: 0 2rem;
+  }
+  @include mobile {
+    position: relative;
+    margin: 6rem 0;
+    padding: 0 2rem;
   }
 }
 
@@ -40,6 +45,7 @@ article h4 {
   font-size: 1.5rem;
   letter-spacing: 3px;
   text-shadow: 0 0 30px $sub-text-glow-color;
+
   @include tablet {
     font-size: 1.3rem;
   }
@@ -61,31 +67,35 @@ article h1 {
 }
 
 .star-bubble {
-  // border: red solid 1px;
+  position: absolute;
+  top: 12rem;
   margin: 0 auto;
   width: 60vw;
   height: 80vh;
 
   @include laptop {
-    width: 550px;
+    top: 5rem;
+    left: 4rem;
     height: 600px;
   }
 
   @include tablet {
-    width: 550px;
-    height: 600px;
+    top: auto;
+    left: 3rem;
+    width: 95%;
+    height: 480px;
   }
 
   @include mobile {
-    position: absolute;
+    top: auto;
     left: 0;
-    width: 100%;
+    width: 99%;
     height: 400px;
   }
 }
 
 .scroll-indicator {
-  margin: 0 15vw 5vh 35vw;
+  margin: 0 15vw 15px 35vw;
   width: 20px;
   height: 40px;
   border: 2px solid $indicator-color;
@@ -94,7 +104,9 @@ article h1 {
   position: relative;
 
   @include tablet {
-    margin: 0 auto 5vh;
+    margin: 0 auto 15px;
+    width: 15px;
+    height: 35px;
   }
   @include mobile {
     margin: 0 auto 15px;
