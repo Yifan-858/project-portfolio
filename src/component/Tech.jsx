@@ -13,7 +13,9 @@ export const Tech = () => {
         </div>
         <div className="skill-description">
           {data.tech.map((technology) => (
-            <p key={technology.name}>{technology.name}</p>
+            <p className="skill-name" key={technology.name}>
+              {technology.name}
+            </p>
           ))}
         </div>
       </div>

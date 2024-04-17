@@ -11,7 +11,7 @@ const SkillBalls = (props) => {
       <pointLight intensity={20} color="#ffffff" position={[0, 0, 5]} />
       <pointLight intensity={50} color="#ffffff" position={[5, 5, 5]} />
       <mesh castShadow receiveShadow scale={2.5}>
-        <icosahedronGeometry args={[1, 1]} />
+        <icosahedronGeometry args={[1, 2]} />
         <meshStandardMaterial
           color="#ffffff"
           polygonOffset

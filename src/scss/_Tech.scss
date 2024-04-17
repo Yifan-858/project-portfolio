@@ -1,10 +1,10 @@
 @import "./varables";
 
 .tech-section {
-  border: red 1px solid;
+  // border: red 1px solid;
   margin: 8rem 0 0 23vw;
   padding-top: 10rem;
-  height: 80vh;
+
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -38,14 +38,12 @@
     justify-content: center;
     align-items: center;
 
-    @include mobile {
-      margin-top: 10px;
-      flex-direction: row;
-      align-items: flex-start;
-    }
-
     @include laptop {
       margin: 5rem 0 0 20px;
+    }
+    @include mobile {
+      margin: 2rem auto;
+      width: 100%;
     }
 
     .skill-canvas {
@@ -57,8 +55,7 @@
       flex-wrap: wrap;
 
       @include mobile {
-        flex-direction: column;
-        height: 500px;
+        width: 100%;
       }
 
       .skill-balls {
@@ -70,8 +67,8 @@
         transition: box-shadow 0.6s;
 
         @include mobile {
-          width: 45px;
-          height: 45px;
+          width: 55px;
+          height: 55px;
         }
       }
 
@@ -79,6 +76,7 @@
         box-shadow: 0px 0 25px $title-glow-color;
       }
     }
+
     .skill-description {
       color: $sub-text-glow-color;
       margin-top: 20px;
@@ -90,12 +88,14 @@
       justify-content: center;
       align-items: center;
       flex-wrap: wrap;
+
       @include mobile {
         font-size: 0.9rem;
-        margin-left: 60px;
+        margin: 2rem auto 0;
+        width: 100%;
       }
 
-      p {
+      .skill-name {
         margin-left: 10px;
       }
     }

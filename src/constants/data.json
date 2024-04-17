@@ -16,6 +16,22 @@
 
   "projects": [
     {
+      "name": "To-do List",
+      "image": "projects-todolist.png",
+      "description": "The chat bot app is a conversational AI-powered tool designed to enhance user experience by providing instant, personalized, and automated responses to user inquiries.",
+      "tech": ["React", "CSS", "HTML"],
+      "demo": "https://yifan-movie-website.netlify.app",
+      "code": "https://github.com/Yifan-858/project-todos-context-vite?tab=readme-ov-file"
+    },
+    {
+      "name": "Movie App",
+      "image": "projects-movie.png",
+      "description": "The chat bot app is a conversational AI-powered tool designed to enhance user experience by providing instant, personalized, and automated responses to user inquiries.",
+      "tech": ["React", "CSS", "CSS", "HTML"],
+      "demo": "https://yifan-movie-website.netlify.app",
+      "code": "https://github.com/Yifan-858/project-movies-vite"
+    },
+    {
       "name": "Happy Thoughts App",
       "image": "projects-happythought.png",
       "description": "The chat bot app is a conversational AI-powered tool designed to enhance user experience by providing instant, personalized, and automated responses to user inquiries.",
@@ -46,14 +62,6 @@
       "tech": ["JavaScript", "CSS", "HTML"],
       "demo": "https://yifan-weather-app.netlify.app/",
       "code": "https://github.com/Yifan-858/project-weather-app"
-    },
-    {
-      "name": "Chatbot built in JavaScript",
-      "image": "projects-chatbot.png",
-      "description": "The chat bot app is a conversational AI-powered tool designed to enhance user experience by providing instant, personalized, and automated responses to user inquiries.",
-      "tech": ["HTML", "CSS", "JavaScript"],
-      "demo": "https://chatbot-yifan-nathalie.netlify.app/",
-      "code": "https://github.com/ohitsnathalie/project-chatbot/tree/main"
     }
   ],
 

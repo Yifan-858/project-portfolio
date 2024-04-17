@@ -24,7 +24,7 @@ export const Projects = () => {
               <div className="project-link">
                 <a href={project.demo} target="_blank">
                   <p>
-                    <span>View project</span>
+                    <span>View demo</span>
                     <svg
                       stroke="currentColor"
                       fill="currentColor"

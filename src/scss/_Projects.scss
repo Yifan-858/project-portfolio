@@ -1,9 +1,7 @@
 @import "./varables";
 
 .projects-section {
-  border: red 1px solid;
   margin: 12rem 0 0 23vw;
-  padding-top: 1rem;
 
   @include laptop {
     margin: 12rem 0 0 23vw;
@@ -35,11 +33,14 @@
     @include tablet {
       margin: 100px auto;
     }
+    @include mobile {
+      margin-top: 2rem;
+      width: 100%;
+    }
   }
 
   .each-project {
     margin: 80px 80px;
-    padding: 0;
     width: 80%;
     display: flex;
     justify-content: center;
@@ -47,6 +48,7 @@
     border-radius: 30px;
     box-shadow: inset 0px 0 15px $ball-glow-color;
     transition: all 1s;
+
     @include tablet {
       margin: 80px 0;
       flex-direction: column;
@@ -54,8 +56,9 @@
 
     @include mobile {
       margin: 80px auto;
-      border-radius: 15px;
       flex-direction: column;
+      width: 100%;
+      border-radius: 15px;
     }
 
     .project-img {
@@ -82,7 +85,7 @@
         margin: 15px 15px;
       }
       @include mobile {
-        margin: 15px 15px;
+        margin: 15px 25px;
       }
     }
 
@@ -124,8 +127,8 @@
 
       li {
         list-style-type: none;
-        margin-right: 1rem;
-        padding: 2px;
+        margin-right: 0.5rem;
+        padding: 4px;
         color: $background-color;
         background-color: $indicator-color;
         font-weight: 600;
@@ -149,6 +152,11 @@
       justify-content: flex-start;
       align-items: center;
 
+      @include mobile {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+
       a,
       a:visited,
       a:focus {
@@ -170,7 +178,7 @@
           }
           @include mobile {
             font-size: 0.8rem;
-            margin: 10px 0;
+            margin: 0.5rem auto;
           }
 
           svg {
