@@ -6,7 +6,9 @@
     { "name": "JavaScript", "icon": "javascript.png" },
     { "name": "TypeScript", "icon": "typescript.png" },
     { "name": "ReactJS", "icon": "reactjs.png" },
+    { "name": "Redux", "icon": "redux.png" },
     { "name": "SASS", "icon": "sass.png" },
+    { "name": "StyledComponents", "icon": "styled-components.png" },
     { "name": "ThreeJS", "icon": "threejs.png" },
     { "name": "NodeJS", "icon": "nodejs.png" },
     { "name": "MongoDB", "icon": "mongodb.png" },
@@ -15,6 +17,14 @@
   ],
 
   "projects": [
+    {
+      "name": "Game UnderTech",
+      "image": "projects-game.png",
+      "description": "The Undertech Game is an interactive text-based adventure game built using React and Zustand for handeling the global variables.",
+      "tech": ["React", "Zustand", "CSS", "HTML"],
+      "demo": "https://yifan-undertech-game.netlify.app",
+      "code": "https://github.com/Yifan-858/project-labyrinth-zustand-vite"
+    },
     {
       "name": "To-do List",
       "image": "projects-todolist.png",
