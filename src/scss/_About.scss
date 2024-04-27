@@ -63,26 +63,5 @@
         font-size: 1.2rem;
       }
     }
-
-    p {
-      font-size: 1.2rem;
-      color: $sub-text-color;
-      line-height: 30px;
-      margin: 5px;
-      width: 100%;
-
-      @include tablet {
-        font-size: 1rem;
-      }
-
-      @include mobile {
-        font-size: 0.9rem;
-      }
-
-      span {
-        color: $title-color;
-        font-weight: 600;
-      }
-    }
   }
 }

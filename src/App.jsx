@@ -4,7 +4,6 @@ import {
   Tech,
   Projects,
   Words,
-  About,
   Contact,
   Footer,
 } from "./component";
@@ -17,7 +16,6 @@ function App() {
       <Tech />
       <Projects />
       <Words />
-      <About />
       <Contact />
       <Footer />
     </main>

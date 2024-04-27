@@ -6,21 +6,13 @@ export const About = () => {
         <div className="about-text">
           <p className="hi-text">Hi there,</p>
           <p>
-            My journey into coding was sparked by early experiences in 3D
-            modeling and light programming.
+            I am a <span>Front-end Developer</span> with a passion for UX/UI
+            design and a background in scenography design and 3D art. My goal is
+            to constantly challenge myself with new technologies and skills,
+            creating user-friendly and innovative products. I really thrive in
+            roles where I can blend and bridge my two big passions: design and
+            web development.
           </p>
-          <p>
-            Fascinated by the transformative potential of coding in crafting
-            immersive experiences, I am passionately immersing myself in the
-            world of programming, learning new technologies to become a
-            proficient
-            <span> Frontend Developer</span>.
-          </p>
-          <p>
-            Let's connect to explore collaboration opportunities and embark on
-            this exciting journey together!
-          </p>
-
           {/* <div>title cards</div> */}
         </div>
       </div>

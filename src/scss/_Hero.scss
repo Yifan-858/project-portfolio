@@ -1,6 +1,7 @@
 @import "./varables";
 
 .hero-section {
+  border: red 1px solid;
   margin: 0 0 0 15vw;
   height: 100vh;
 
@@ -22,25 +23,29 @@
 }
 
 .hero-text {
-  margin: 15vh 0 0 8vw;
+  margin: 5vh 0 0 8vw;
+
+  @media screen and (max-width: 1440px) {
+    margin: 10vh 0 0 8vw;
+  }
 
   @include laptop {
     position: relative;
   }
 
   @include tablet {
-    position: relative;
-    margin: 6rem 0;
+    // position: relative;
+    margin: 6rem 0 4rem;
     padding: 0 2rem;
   }
   @include mobile {
-    position: relative;
+    // position: relative;
     margin: 6rem 0;
     padding: 0 2rem;
   }
 }
 
-article h4 {
+.name {
   color: $sub-text-color;
   font-size: 1.5rem;
   letter-spacing: 3px;
@@ -54,7 +59,7 @@ article h4 {
   }
 }
 
-article h1 {
+.job-title {
   @include title-text;
   text-shadow: 0 0 30px $title-glow-color;
 
@@ -66,42 +71,133 @@ article h1 {
   }
 }
 
-.star-bubble {
-  position: absolute;
-  top: 12rem;
-  margin: 0 auto;
-  width: 60vw;
-  height: 80vh;
+.about-text {
+  margin-top: 30px;
+  width: 47%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+
+  .profile-img {
+    width: 120px;
+    border-radius: 50%;
+    margin-bottom: 2rem;
+  }
 
   @include laptop {
-    top: 5rem;
-    left: 4rem;
-    height: 600px;
+    width: 60%;
+  }
+  @include tablet {
+    margin: 15px auto;
+    width: 80%;
+  }
+  @include mobile {
+    margin: 5px auto;
+    width: 100%;
+  }
+
+  .hi-text {
+    font-size: 1.5rem;
+    margin-bottom: 1.2rem;
+    @include mobile {
+      font-size: 1.2rem;
+    }
+  }
+
+  .about-me {
+    font-size: 1.1rem;
+    color: $sub-text-color;
+    line-height: 30px;
+    margin: 5px;
+    width: 100%;
+
+    @include laptop {
+      font-size: 1rem;
+    }
+
+    @include tablet {
+      font-size: 0.9rem;
+    }
+
+    @include mobile {
+      font-size: 0.8rem;
+    }
+
+    span {
+      color: $title-color;
+      font-weight: 600;
+    }
+  }
+
+  .first-para {
+    width: 100%;
+
+    @include laptop {
+      font-size: 1rem;
+    }
+
+    @include tablet {
+      font-size: 0.9rem;
+    }
+
+    @include mobile {
+      font-size: 0.8rem;
+    }
+
+    span {
+      color: $title-color;
+      font-weight: 600;
+    }
+  }
+}
+
+.star-bubble {
+  border: red 1px solid;
+  position: absolute;
+  top: 4%;
+  right: 0;
+  margin: 0 auto;
+  width: 48vw;
+  height: 38vw;
+
+  @media screen and (max-width: 1440px) {
+    top: 8%;
+  }
+
+  @include laptop {
+    top: 75%;
   }
 
   @include tablet {
-    top: auto;
-    left: 3rem;
-    width: 95%;
-    height: 480px;
+    position: initial;
+    height: 50vw;
   }
 
   @include mobile {
-    top: auto;
-    left: 0;
-    width: 99%;
-    height: 400px;
+    position: initial;
+    width: 80vw;
+    height: 85vw;
   }
 }
 
 .scroll-indicator {
-  margin: 0 15vw 15px 35vw;
-  width: 20px;
-  height: 40px;
+  margin-left: 30vw;
+  margin-top: 25vh;
+  width: 15px;
+  height: 30px;
   border: 2px solid $indicator-color;
   border-radius: 50px;
   box-shadow: 0px 0px 35px -5px $indicator-color;
   position: relative;
+
+  @media screen and (max-height: 700px) {
+    margin-top: 6vh;
+  }
+
+  @include laptop {
+    margin-top: 6vh;
+  }
 
   @include tablet {
     margin: 0 auto 15px;
@@ -117,18 +213,18 @@ article h1 {
   content: "";
   position: absolute;
   top: 0.5em;
-  left: 50%;
+  left: 47%;
   width: 3px;
-  height: 10px;
+  height: 6px;
   background-color: $indicator-color;
   border-radius: 3px;
-  transform: translate(-50%, 0);
+  transform: translate(-40%, 0);
   animation: scrollAnim 1.8s 0.5s infinite ease-in;
 }
 
 @keyframes scrollAnim {
   0% {
-    transform: translate(-50%, 0) rotateX(0);
+    transform: translate(-40%, 0) rotateX(0);
     opacity: 0;
   }
 
@@ -146,6 +242,6 @@ article h1 {
   }
 
   100% {
-    transform: translate(-50%, 30px) rotateX(30deg);
+    transform: translate(-40%, 20px) rotateX(30deg);
   }
 }
