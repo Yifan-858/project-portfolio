@@ -18,7 +18,8 @@
     @include tablet-position;
   }
   @include mobile {
-    @include mobile-position;
+    margin: 24rem 24px 7rem;
+    padding-top: 0;
   }
 
   .section-title {
