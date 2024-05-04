@@ -75,5 +75,59 @@
     }
   ],
 
+  "skills": [
+    {
+      "title": "Code",
+      "skillname": [
+        "HTML5",
+        "CSS3",
+        "JavaScript",
+        "Typescript",
+        "React",
+        "Redux",
+        "SASS",
+        "StyleComponents",
+        "ThreeJS",
+        "NodeJS",
+        "MongoDB",
+        "Express",
+        "Git",
+        "REST API",
+        "Internet Accessbility"
+      ]
+    },
+    {
+      "title": "Toolbox",
+      "skillname": [
+        "VSCode",
+        "Postman",
+        "Lighthouse",
+        "Netlify",
+        "Render",
+        "Adobe Photoshop",
+        "Adobe Illustrator",
+        "Blender",
+        "SketchUp",
+        "Design Principles",
+        "3D design",
+        "Figma",
+        "Slack"
+      ]
+    },
+    {
+      "title": "Upcoming",
+      "skillname": ["Typescript", "UI/UX Design", "Redux", "NextJS", "Python"]
+    },
+    {
+      "title": "More",
+      "skillname": [
+        "Concept development",
+        "Design thinking",
+        "Agile methodology",
+        "Collaborative work"
+      ]
+    }
+  ],
+
   "contact": { "profile-img": "profile-img.png" }
 }

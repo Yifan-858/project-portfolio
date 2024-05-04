@@ -3,7 +3,7 @@ import { Hero } from "./Hero";
 import { Tech } from "./Tech";
 import { Projects } from "./Projects";
 import { Words } from "./Words";
-import { About } from "./About";
+import { Skills } from "./Skills";
 import { Contact } from "./Contact";
 import { Footer } from "./Footer";
 
@@ -12,6 +12,6 @@ export { Hero };
 export { Tech };
 export { Projects };
 export { Words };
-export { About };
+export { Skills };
 export { Contact };
 export { Footer };
