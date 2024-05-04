@@ -11,6 +11,7 @@
     { "name": "StyledComponents", "icon": "styled-components.png" },
     { "name": "ThreeJS", "icon": "threejs.png" },
     { "name": "NodeJS", "icon": "nodejs.png" },
+    { "name": "ExpressJS", "icon": "express.png" },
     { "name": "MongoDB", "icon": "mongodb.png" },
     { "name": "Git", "icon": "git.png" },
     { "name": "Figma", "icon": "figma.png" }
