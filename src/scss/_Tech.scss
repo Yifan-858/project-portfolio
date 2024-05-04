@@ -73,12 +73,12 @@
         transition: box-shadow 0.6s;
 
         @include tablet {
-          width: 55px;
-          height: 55px;
+          width: 70px;
+          height: 70px;
         }
         @include mobile {
-          width: 55px;
-          height: 55px;
+          width: 60px;
+          height: 60px;
         }
       }
 
