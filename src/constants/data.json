@@ -19,6 +19,22 @@
 
   "projects": [
     {
+      "name": "eGo",
+      "image": "projects-ego.png",
+      "description": "eGo, developed with React, MongoDB, and styled-components, this web application tracks carbon footprint reduction and helps users set sustainability goals.",
+      "tech": [
+        "React",
+        "Styled-components",
+        "Chart.js",
+        "MongoDB",
+        "Express.js",
+        "UI/UX Design",
+        "Team Project"
+      ],
+      "demo": "https://ego-app.netlify.app/",
+      "code": "https://github.com/vittoriamatteoli/eGo"
+    },
+    {
       "name": "Game UnderTech",
       "image": "projects-game.png",
       "description": "The Undertech Game is an interactive text-based adventure game built using React and Zustand for handeling the global variables.",
@@ -30,7 +46,7 @@
       "name": "To-do List",
       "image": "projects-todolist.png",
       "description": "A simple To-Do List App allows users to manage their tasks efficiently. Users can add tasks with descriptions, mark tasks as complete, remove tasks, and toggle between light and dark themes.",
-      "tech": ["React", "CSS", "HTML"],
+      "tech": ["React", "useContext", "CSS", "HTML"],
       "demo": "https://yifan-movie-website.netlify.app",
       "code": "https://github.com/Yifan-858/project-todos-context-vite?tab=readme-ov-file"
     },
@@ -38,7 +54,7 @@
       "name": "Movie App",
       "image": "projects-movie.png",
       "description": "The movie app lets user search and browse through movies according to different sorting. If the user have a favorite movie and want to find similar ones, the app has a feature to show similar options.",
-      "tech": ["React", "CSS", "HTML"],
+      "tech": ["React", "RESTful API", "CSS", "HTML"],
       "demo": "https://yifan-movie-website.netlify.app",
       "code": "https://github.com/Yifan-858/project-movies-vite"
     },
@@ -46,7 +62,7 @@
       "name": "Happy Thoughts App",
       "image": "projects-happythought.png",
       "description": "The happy thought posting app allows users to share positive thoughts and messages with others. Users can view, like, and post their own happy thoughts.",
-      "tech": ["React", "SASS", "HTML"],
+      "tech": ["React", "RESTful API", "SASS", "HTML"],
       "demo": "https://yifan-happy-thought-post.netlify.app",
       "code": "https://github.com/Yifan-858/project-happy-thoughts-vite?tab=readme-ov-file"
     },
