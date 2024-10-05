@@ -21,7 +21,7 @@
     {
       "name": "Shopping Cart",
       "image": "projects-shopping.png",
-      "description": "A kitchen shopping website developed with React, TypeScript. Styled with SASS and implemented 3D product models to increase the user experience.",
+      "description": "A kitchen shopping website developed with React, TypeScript. Styled with SASS and implemented 3D product models with Three.js to increase the user experience.",
       "tech": [
         "React",
         "TypeScript",
