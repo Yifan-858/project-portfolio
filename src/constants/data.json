@@ -19,6 +19,14 @@
 
   "projects": [
     {
+      "name": "Shuffle Your Worries",
+      "image": "projects-shuffle.png",
+      "description": "Built using Three.js for dynamic user interaction with 3D models created in Blender, this web app offers a creative way to help you visualize and untangle an overloaded mind.",
+      "tech": ["Three.js", "Blender", "UI/UX Design", "3D Design"],
+      "demo": "https://shuffle-your-worries.netlify.app/",
+      "code": "https://github.com/Yifan-858/shuffle-your-worries"
+    },
+    {
       "name": "Shopping Cart",
       "image": "projects-shopping.png",
       "description": "A kitchen shopping website developed with React, TypeScript. Styled with SASS and implemented 3D product models with Three.js to increase the user experience.",
