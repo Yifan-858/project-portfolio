@@ -25,7 +25,7 @@ export const Hero = () => {
               passions: design and development.
             </p>
             <p className="about-me">
-              Tech stack for this website: SASS, Three.js, React
+              Tech stack for this website: SASS, Three.js, React, Blender
             </p>
           </div>
         </article>
