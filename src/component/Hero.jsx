@@ -15,14 +15,14 @@ export const Hero = () => {
               alt="profile-img"
             />
             <p className="about-me first-para">
-              I am a <span>Web Developer</span> with a passion for UX/UI design
-              and a background in scenography design and 3D art. My goal is to
-              constantly challenge myself with new technologies and skills,
-              creating user-friendly and innovative products.
+              I am a <span>Full-Stack Developer</span> with a background in
+              design and 3D art. My goal is to constantly challenge myself with
+              new technologies and skills, creating user-friendly and innovative
+              products.
             </p>
             <p className="about-me">
-              I really thrive in roles where I can blend and bridge my two big
-              passions: design and web development.
+              I thrive in roles where I can blend and bridge my two big
+              passions: design and development.
             </p>
             <p className="about-me">
               Tech stack for this website: SASS, Three.js, React
